@@ -1,0 +1,42 @@
+background-opacity = 0.92
+background-blur-radius = 20
+
+window-save-state = always
+quit-after-last-window-closed = true
+
+macos-icon-frame = chrome
+macos-icon-screen-color = purple
+theme = Catppuccin Macchiato
+cursor-color = purple
+cursor-style = block
+mouse-hide-while-typing = true
+title = sticky terminal
+window-decoration = true
+
+clipboard-read = allow
+clipboard-write = allow
+clipboard-trim-trailing-spaces = true
+
+window-padding-x = 5
+window-padding-y = 5
+window-height = 52
+window-width = 185
+font-size = 16
+
+keybind = shift+cmd+h=goto_split:left
+keybind = shift+cmd+j=goto_split:bottom
+keybind = shift+cmd+k=goto_split:top
+keybind = shift+cmd+l=goto_split:right
+
+keybind = shift+ctrl+h=new_split:left
+keybind = shift+ctrl+j=new_split:down
+keybind = shift+ctrl+k=new_split:up
+keybind = shift+ctrl+l=new_split:right
+
+keybind = shift+option+h=resize_split:left,25
+keybind = shift+option+j=resize_split:down,25
+keybind = shift+option+k=resize_split:up,25
+keybind = shift+option+l=resize_split:right,25
+keybind = shift+enter=text:\n
+
+working-directory = inherit

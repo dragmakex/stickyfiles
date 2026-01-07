@@ -1,0 +1,18 @@
+[submodule "borders"]
+	path = borders
+	url = https://github.com/dragmakex/borders.git
+[submodule "fastfetch"]
+	path = fastfetch
+	url = https://github.com/dragmakex/fastfetch.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/dragmakex/nvim.git
+[submodule "sketchybar"]
+	path = sketchybar
+	url = https://github.com/dragmakex/sketchybar.git
+[submodule "skhd"]
+	path = skhd
+	url = https://github.com/dragmakex/skhd.git
+[submodule "yabai"]
+	path = yabai
+	url = https://github.com/dragmakex/yabai.git
